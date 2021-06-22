@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="login.css">
+  <link rel="shortcut icon" href="ICON.png"/> <!--ICON DA PAGINA-->
+  <script>
+
+    function acessar(){
+
+      var aux1 = document.getElementById("cmp_email_login");
+      var aux2 = document.getElementById('cmp_senha_login');
+
+      var email = new String(aux1.value);
+      var senha = new String(aux2.value);
+
+      if(email != "190543@upf.br"){
+          alert('E-mail invalido! verifique!'); 
+          aux1.value = '';
+        } 
+        
+      else if(senha != '123456'){
+          alert('Senha invalida! verifique!'); 
+          aux2.value = '';
+        } 
+
+      else if(email == "190543@upf.br" && senha == '123456'){
+          acess = 1;
+          /*window.location.href="https://www.upf.br/";*/
+          window.location.href="index.html";
+          
+        }
+
+    }
+</script>
+
+</head>
+<body>
+  <div class="container" >
+
+    <div class="content">  
+     
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        
+          <h1>Login</h1> 
+          <p> 
+            <label for="nome_login">E-mail</label>
+            <input id="cmp_email_login" required="required" type="text"/>
+          </p>
+           
+          <p> 
+            <label for="senha_login">Senha</label>
+            <input id="cmp_senha_login" required="required" type="password"/> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me conectado</label>
+          </p>
+           
+          <p> 
+          <input type="button" value="Logar" onclick="acessar()">
+
+          </p>
+           
+          <p class="link">
+            Ainda não possui uma conta?
+            <a href="cadastro.html">Cadastre-se</a>
+          </p>
+        
+      </div>
+ 
+    </div>
+  </div>  
+</body>
+</html>

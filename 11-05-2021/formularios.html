@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exemplo Formulário</title>
+  </head>
+  <body>
+      <h1>Exemplo Formulário</h1>
+      <form class="" action="./teste.php" method="get">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="" value="" required>
+        <br>
+        <label for="">Senha</label>
+        <input type="password" name="" value="" placeholder="Mínimo 8 caracteres" minlength="8" required>
+        <br>
+        <label for="">Email</label>
+        <input type="email" name="" value="" placeholder="teste@teste.com" required>
+        <br>
+        <label for="">Idade</label>
+        <input type="number" min="10" max="200" name="" value="18">
+        <br>
+        <input type="radio" id="male" name="genero" value="Masculino">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="genero" value="Feminino">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="genero" value="Outro">
+        <label for="other">Other</label>
+        <br>
+        <label for="">Nave</label>
+        <select class="" name="" required>
+          <option value="">Selecione uma nave</option>
+          <option value="fusca">Fusca</option>
+          <option value="kombi">Kombi</option>
+          <option value="chevete">Chevete</option>
+          <option value="corcel">Corcel</option>
+          <option value="opala">Opala</option>
+        </select>
+        <br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <br>
+        <label for="">Arquivo</label>
+        <input type="file" name="" value="">
+        <br>
+        <label for="">Data</label>
+        <input type="date" name="" value="">
+        <br>
+        <label for="">Horário</label>
+        <input type="time" name="" value="">
+        <br>
+        <textarea name="name" rows="5" cols="50">
+          Exemplo de Texto
+        </textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+      </form>
+  </body>
+
+</html>
