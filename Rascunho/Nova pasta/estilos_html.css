@@ -1,0 +1,59 @@
+.nav{
+  background-color: rgb(44, 53, 175);
+  box-shadow: inset 0 0 0.3em rgb(161, 167, 255);
+}
+
+body {
+  background-color: rgb(212, 208, 208);
+  margin:0px 0px;
+  overflow:hidden;
+}
+
+#rolling-nav {
+  font:normal 12px 'Trebuchet MS',Trebuchet,Arial,Sans-Serif;
+  color:white;
+  text-transform:uppercase;
+	/* outline:1px solid; */
+	width:1200px; /* Fixed width. Measure it manually */
+	margin:0px auto;
+}
+
+#rolling-nav ul {
+  height:50px;
+  margin:0px 0px;
+  padding: 0px 0px;
+  overflow:hidden;
+}
+
+#rolling-nav li {
+  float:left;
+  display:inline;
+  list-style:none;
+  margin:0px 0px;
+  padding:0px 0px;
+}
+
+#rolling-nav a,
+#rolling-nav a:before {
+  display:block;
+  margin:0px 0px;
+  padding:0px 30px;
+  line-height:50px;
+  color:white;
+  text-decoration:none; 
+  position:relative;
+}
+
+#rolling-nav a:before {
+  height:auto;
+  width:180px;
+   
+}
+
+#rolling-nav a:hover {
+  margin-top:-50px;
+  margin-bottom:1px;
+}
+
+
+

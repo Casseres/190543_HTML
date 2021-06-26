@@ -1,0 +1,25 @@
+*{  /* aplica para todos os componentes no documento */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.header {
+    padding: 1px; 
+    text-align: center;
+    background-color: white;
+}
+
+.header h2{
+    font-size: 50px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
