@@ -1744,48 +1744,7 @@ a.porto-excerpt-caption {
 	line-height:55px;
 	font-size:25px;
 }
-.downarrowpoint i {
-	-webkit-transition-property:-webkit-transform;
-	-webkit-transition-duration:1s;
-	-moz-transition-property:-moz-transform;
-	-moz-transition-duration:1s;
-	-webkit-animation-name:pulse;
-	-moz-animation-name:pulse;
-	-webkit-animation-duration:1.5s;
-	-moz-animation-duration:1.5s;
-	-webkit-animation-iteration-count:infinite;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-timing-function:linear;
-	-moz-animation-timing-function:linear;
-}
-@-webkit-keyframes pulse {
-	0 {
-		-webkit-transform:scale(1);
-		transform:scale(1);
-	}
-	50% {
-		-webkit-transform:scale(1.2);
-		transform:scale(1.2);
-	}
-	100% {
-		-webkit-transform:scale(1);
-		transform:scale(1);
-	}
-}
-@-moz-keyframes pulse {
-	0 {
-		-moz-transform:scale(1);
-		transform:scale(1);
-	}
-	50% {
-		-moz-transform:scale(1.2);
-		transform:scale(1.2);
-	}
-	100% {
-		-moz-transform:scale(1);
-		transform:scale(1);
-	}
-}
+
 .title-area h2.title,.title-area h1.title {
 	margin-top:0px;
 	font-size:40px;
@@ -2068,7 +2027,7 @@ body {
 		font-family: "Open Sans";
 	}
 	body {
-		color: ; 
+
 		font-weight:400;
 		font-size: 13px;
 	}
@@ -2076,26 +2035,26 @@ body {
 		font-family: "Open Sans";
 	}
 	.navbar-default .navbar-nav>li>a {
-		color: ; 
+	
 		font-weight:600;
 	}
 	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .single-project-slider .flex-caption,a.porto-title-caption {
 		font-family: "Open Sans";
 	}
 	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .service-box-1 .icon-custom-style {
-		color: ; 
+	
 		font-weight:700;
 	}
 	h2.widget-title, h2.widgettitle, .footer-widget-area h3.widget_title {
 		font-weight:700;}
 	.title-area h2.title, .title-area h1.title, h2.entry-title.excerpt, h1.entry-title, h2.header3{
 		font-weight:900;
-		color: ;
+
 	}
 .navbar-default .navbar-brand { font-family:ABeeZee;}
 	.navbar-default .navbar-brand {
 		font-weight:600;
-		color: ;
+
 		font-size: 40px;
 	}
 			.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {font-size:0px;}
@@ -2207,4 +2166,47 @@ body {
 @media only screen and (max-width:600px) {
 .videowrap .videocontent, .videowrapsh .videocontent {height: 100%;}
 .owl-carousel {display: block !important;opacity: 1 !Important;}
+}
+
+.downarrowpoint i {
+	-webkit-transition-property:-webkit-transform;
+	-webkit-transition-duration:1s;
+	-moz-transition-property:-moz-transform;
+	-moz-transition-duration:1s;
+	-webkit-animation-name:pulse;
+	-moz-animation-name:pulse;
+	-webkit-animation-duration:1.5s;
+	-moz-animation-duration:1.5s;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	-moz-animation-timing-function:linear;
+}
+@-webkit-keyframes pulse {
+	0 {
+		-webkit-transform:scale(1);
+		transform:scale(1);
+	}
+	50% {
+		-webkit-transform:scale(1.2);
+		transform:scale(1.2);
+	}
+	100% {
+		-webkit-transform:scale(1);
+		transform:scale(1);
+	}
+}
+@-moz-keyframes pulse {
+	0 {
+		-moz-transform:scale(1);
+		transform:scale(1);
+	}
+	50% {
+		-moz-transform:scale(1.2);
+		transform:scale(1.2);
+	}
+	100% {
+		-moz-transform:scale(1);
+		transform:scale(1);
+	}
 }
