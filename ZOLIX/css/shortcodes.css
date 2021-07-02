@@ -484,6 +484,10 @@ ul.longarrowlist li:before {
 	font-family:FontAwesome;
 	margin-right: 5px;
 }
+
+.map-left{
+	left: 30%;
+}
 /*==============================================* SHORTCODE SERVICES*===============================================*/
 .service-box {
 	overflow:hidden;
